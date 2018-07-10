@@ -71,6 +71,20 @@
         .sec-2{
             padding: 20px;
             background-color: #CEEAF7;
+            /*display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-flow: column wrap;*/
+        }
+        .sec-2 h3{
+            font-size: 35px;
+            font-family: 'Lato';
+            text-align: center;
+            margin: 0;
+        }
+        .sec-2-container{
+            /*padding: 20px;
+            background-color: #CEEAF7;*/
             display: flex;
             justify-content: space-around;
             align-items: center;
@@ -80,7 +94,7 @@
             /*width: 50%;*/
         }
         .sec-2-art-1-info{
-            font-size: 24px;
+            font-size: 25px;
             font-style: italic;
             padding: 10px;
             box-sizing: border-box;
@@ -120,9 +134,10 @@
         .sec-3-info{
             height: 100%;
             display: flex;
-            justify-content: space-evenly;
+            justify-content: space-around;
             align-items: center;
             flex-flow: column wrap;
+            padding: 0px 20px;
         }
         
         .sec-3-info-details{
@@ -254,7 +269,7 @@
             header nav{
                padding-left: 100px;
            }
-            .sec-2{
+            .sec-2-container{
                 flex-flow: row wrap;
             }
             .sec-2-art-1{
@@ -281,4 +296,3 @@
                padding-left: 250px;
            }
        }
-}
